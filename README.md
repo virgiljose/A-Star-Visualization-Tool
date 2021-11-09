@@ -7,7 +7,7 @@ In this modification:
 - The path can travel in eight directions instead of four
 - Distance (and therefore the heuristic function) is calculated based on Euclidian distance, rather than Manhattan distance. Therefore, a neighboring diagonal cell is considered to be slightly farther than a neighboring orthogonal cell (e.g. a cell immediately above/below or to the left/right). A neighboring diagonal cell has a distance of sqrt(2) whereas a neighboring orthogonal cell has a distance of 1.
 
-This visualization tool finds the shortest path from the selected start point to the selected end point, taking into account walls that may be blocking the path (up to one wall may be traversed through).
+This visualization tool finds the shortest path from the selected start point to the selected end point, taking into account walls that may be blocking the path (note that up to one wall may be traversed through).
 
 Usage:
 1. Run the command: python3 ./a_star.py
